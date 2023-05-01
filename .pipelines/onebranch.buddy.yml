@@ -19,7 +19,7 @@ resources:
       ref: refs/heads/main
 
   pipelines:
-    - pipeline: vscode-website-main
+    - pipeline: vscode-website-docs-vnext
       source: vscode-website (buddy)
       trigger:
         branches:
