@@ -25,7 +25,6 @@ resources:
         branches:
           - release/prod
 
-
 variables:
   WindowsContainerImage: 'onebranch.azurecr.io/windows/ltsc2019/vse2022:latest'
   Codeql.enabled: true
