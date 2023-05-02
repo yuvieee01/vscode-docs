@@ -19,11 +19,11 @@ resources:
       ref: refs/heads/main
 
   pipelines:
-    - pipeline: vscode-website-docs-main
+    - pipeline: build-vscode-website-prod
       source: vscode-website (official)
       trigger:
         branches:
-          - main
+          - release/prod
 
 
 variables:
